@@ -1,0 +1,48 @@
+E:\ME\study\python36\python.exe E:/study/ML/final/final/svm.py
+learning_rate=7.000000e-06,regularization_strength=1.000000e+04,val_accury=0.225000
+learning_rate=7.000000e-06,regularization_strength=3.000000e+04,val_accury=0.223000
+learning_rate=7.000000e-06,regularization_strength=5.000000e+04,val_accury=0.148000
+learning_rate=7.000000e-06,regularization_strength=7.000000e+04,val_accury=0.167000
+learning_rate=7.000000e-06,regularization_strength=1.000000e+05,val_accury=0.159000
+learning_rate=7.000000e-06,regularization_strength=3.000000e+05,val_accury=0.088000
+E:/study/ML/final/final/svm.py:89: RuntimeWarning: overflow encountered in double_scalars
+  loss += 0.5 * reg * np.sum(self.W * self.W)
+E:\ME\study\python36\lib\site-packages\numpy\core\fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+E:/study/ML/final/final/svm.py:89: RuntimeWarning: overflow encountered in multiply
+  loss += 0.5 * reg * np.sum(self.W * self.W)
+E:\ME\study\python36\lib\site-packages\numpy\core\_methods.py:36: RuntimeWarning: overflow encountered in reduce
+  return umr_sum(a, axis, dtype, out, keepdims, initial)
+E:/study/ML/final/final/svm.py:95: RuntimeWarning: overflow encountered in multiply
+  dW = x.T.dot(margin) / num_train + reg * self.W
+E:/study/ML/final/final/svm.py:86: RuntimeWarning: invalid value encountered in greater
+  margin = (margin > 0) * margin
+E:/study/ML/final/final/svm.py:92: RuntimeWarning: invalid value encountered in greater
+  margin = (margin > 0) * 1
+E:/study/ML/final/final/svm.py:135: RuntimeWarning: invalid value encountered in add
+  self.W += -learning_rate * grad
+learning_rate=7.000000e-06,regularization_strength=5.000000e+05,val_accury=0.102000
+learning_rate=1.000000e-07,regularization_strength=1.000000e+04,val_accury=0.313000
+learning_rate=1.000000e-07,regularization_strength=3.000000e+04,val_accury=0.352000
+learning_rate=1.000000e-07,regularization_strength=5.000000e+04,val_accury=0.364000
+learning_rate=1.000000e-07,regularization_strength=7.000000e+04,val_accury=0.341000
+learning_rate=1.000000e-07,regularization_strength=1.000000e+05,val_accury=0.353000
+learning_rate=1.000000e-07,regularization_strength=3.000000e+05,val_accury=0.342000
+learning_rate=1.000000e-07,regularization_strength=5.000000e+05,val_accury=0.324000
+learning_rate=3.000000e-07,regularization_strength=1.000000e+04,val_accury=0.359000
+learning_rate=3.000000e-07,regularization_strength=3.000000e+04,val_accury=0.347000
+learning_rate=3.000000e-07,regularization_strength=5.000000e+04,val_accury=0.325000
+learning_rate=3.000000e-07,regularization_strength=7.000000e+04,val_accury=0.317000
+learning_rate=3.000000e-07,regularization_strength=1.000000e+05,val_accury=0.335000
+learning_rate=3.000000e-07,regularization_strength=3.000000e+05,val_accury=0.319000
+learning_rate=3.000000e-07,regularization_strength=5.000000e+05,val_accury=0.295000
+max_accuracy=0.364000,best_learning_rate=1.000000e-07,best_regularization_strength=5.000000e+04
+The test accuracy with self-realized svm is:0.359000
+
+Program time of self-realized svm is:190.5843549s
+E:\ME\study\python36\lib\site-packages\sklearn\svm\_base.py:977: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+The test accuracy with svm.LinearSVC is:0.171000
+Program time of svm.LinearSVC is:617.0716397s
+
+Process finished with exit code 0

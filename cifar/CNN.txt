@@ -1,0 +1,461 @@
+E:\ME\study\python36\python.exe E:/study/ML/final/final/cifar.py
+2021-01-09 15:35:08.743889: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudart64_100.dll
+TensorFlow Version: 1.15.0
+WARNING:tensorflow:From E:/study/ML/final/final/cifar.py:111: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From E:/study/ML/final/final/cifar.py:118: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From E:\ME\study\python36\lib\site-packages\tensorflow_core\python\layers\convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From E:/study/ML/final/final/cifar.py:120: max_pooling2d (from tensorflow.python.layers.pooling) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.MaxPooling2D instead.
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From E:/study/ML/final/final/cifar.py:136: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From E:/study/ML/final/final/cifar.py:148: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+WARNING:tensorflow:From E:/study/ML/final/final/cifar.py:149: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From E:/study/ML/final/final/cifar.py:158: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2021-01-09 15:35:52.415126: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library nvcuda.dll
+2021-01-09 15:35:54.570905: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: GeForce GTX 1060 major: 6 minor: 1 memoryClockRate(GHz): 1.6705
+pciBusID: 0000:01:00.0
+2021-01-09 15:35:54.814162: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudart64_100.dll
+2021-01-09 15:35:54.895719: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cublas64_100.dll
+2021-01-09 15:35:54.943137: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cufft64_100.dll
+2021-01-09 15:35:54.981971: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library curand64_100.dll
+2021-01-09 15:35:55.104404: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusolver64_100.dll
+2021-01-09 15:35:55.185270: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusparse64_100.dll
+2021-01-09 15:35:55.191581: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cudnn64_7.dll'; dlerror: cudnn64_7.dll not found
+2021-01-09 15:35:55.192207: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1641] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2021-01-09 15:35:55.575550: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2021-01-09 15:35:55.578970: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-01-09 15:35:55.579188: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      
+WARNING:tensorflow:From E:/study/ML/final/final/cifar.py:159: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2021-01-09 15:35:58.033892: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 2621440000 exceeds 10% of system memory.
+2021-01-09 15:35:58.644416: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 655360000 exceeds 10% of system memory.
+2021-01-09 15:35:59.110046: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 1310720000 exceeds 10% of system memory.
+Epoch  1, Train Loss 2.3462, Validation Accuracy 0.094900 
+2021-01-09 15:36:02.082446: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 2621440000 exceeds 10% of system memory.
+2021-01-09 15:36:02.599814: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 655360000 exceeds 10% of system memory.
+Epoch  1, Train Loss 2.3318, Validation Accuracy 0.139800 
+Epoch  1, Train Loss 2.2960, Validation Accuracy 0.128100 
+Epoch  1, Train Loss 2.2381, Validation Accuracy 0.193000 
+Epoch  1, Train Loss 2.2250, Validation Accuracy 0.182700 
+Epoch  1, Train Loss 1.9951, Validation Accuracy 0.255400 
+Epoch  1, Train Loss 2.0102, Validation Accuracy 0.278200 
+Epoch  1, Train Loss 1.8631, Validation Accuracy 0.306400 
+Epoch  1, Train Loss 1.7510, Validation Accuracy 0.326400 
+Epoch  1, Train Loss 1.5195, Validation Accuracy 0.355000 
+Epoch  1, Train Loss 1.6214, Validation Accuracy 0.377300 
+Epoch  1, Train Loss 1.7134, Validation Accuracy 0.375100 
+Epoch  1, Train Loss 1.5616, Validation Accuracy 0.380300 
+Epoch  1, Train Loss 1.5816, Validation Accuracy 0.415100 
+Epoch  1, Train Loss 1.5936, Validation Accuracy 0.392000 
+Epoch  1, Train Loss 1.6990, Validation Accuracy 0.395500 
+Epoch  1, Train Loss 1.8275, Validation Accuracy 0.385300 
+Epoch  1, Train Loss 1.8611, Validation Accuracy 0.398700 
+Epoch  1, Train Loss 1.5750, Validation Accuracy 0.403900 
+Epoch  1, Train Loss 1.3307, Validation Accuracy 0.433600 
+Epoch  1, Train Loss 1.5499, Validation Accuracy 0.456700 
+Epoch  1, Train Loss 1.7100, Validation Accuracy 0.451800 
+Epoch  1, Train Loss 1.6063, Validation Accuracy 0.441400 
+Epoch  1, Train Loss 1.3876, Validation Accuracy 0.467100 
+Epoch  1, Train Loss 1.2857, Validation Accuracy 0.445800 
+Epoch  1, Train Loss 1.4525, Validation Accuracy 0.456900 
+Epoch  1, Train Loss 1.3387, Validation Accuracy 0.452300 
+Epoch  1, Train Loss 1.3413, Validation Accuracy 0.468000 
+Epoch  1, Train Loss 1.5732, Validation Accuracy 0.469900 
+Epoch  1, Train Loss 1.4099, Validation Accuracy 0.456900 
+Epoch  1, Train Loss 1.4703, Validation Accuracy 0.480700 
+Epoch  1, Train Loss 1.4744, Validation Accuracy 0.497000 
+Epoch  1, Train Loss 1.4646, Validation Accuracy 0.502000 
+Epoch  1, Train Loss 1.4371, Validation Accuracy 0.466100 
+Epoch  1, Train Loss 1.3439, Validation Accuracy 0.489000 
+Epoch  1, Train Loss 1.3874, Validation Accuracy 0.506000 
+Epoch  1, Train Loss 1.2260, Validation Accuracy 0.506600 
+Epoch  1, Train Loss 1.6600, Validation Accuracy 0.499700 
+Epoch  1, Train Loss 1.6266, Validation Accuracy 0.488000 
+Epoch  1, Train Loss 1.3262, Validation Accuracy 0.489200 
+Epoch  1, Train Loss 1.5311, Validation Accuracy 0.502400 
+Epoch  1, Train Loss 1.0195, Validation Accuracy 0.517400 
+Epoch  1, Train Loss 1.8525, Validation Accuracy 0.510900 
+Epoch  1, Train Loss 1.3423, Validation Accuracy 0.508000 
+Epoch  1, Train Loss 1.1594, Validation Accuracy 0.523000 
+Epoch  1, Train Loss 1.1188, Validation Accuracy 0.519800 
+Epoch  1, Train Loss 1.2690, Validation Accuracy 0.536400 
+Epoch  1, Train Loss 1.3513, Validation Accuracy 0.513400 
+Epoch  1, Train Loss 1.1302, Validation Accuracy 0.539000 
+Epoch  1, Train Loss 0.8873, Validation Accuracy 0.540500 
+Epoch  1, Train Loss 1.2866, Validation Accuracy 0.540200 
+Epoch  1, Train Loss 1.3758, Validation Accuracy 0.515700 
+Epoch  1, Train Loss 1.2777, Validation Accuracy 0.512400 
+Epoch  1, Train Loss 1.0359, Validation Accuracy 0.535100 
+Epoch  1, Train Loss 1.3854, Validation Accuracy 0.527500 
+Epoch  1, Train Loss 1.4679, Validation Accuracy 0.546100 
+Epoch  1, Train Loss 1.3322, Validation Accuracy 0.537600 
+Epoch  1, Train Loss 1.2367, Validation Accuracy 0.545200 
+Epoch  1, Train Loss 1.1669, Validation Accuracy 0.553400 
+Epoch  1, Train Loss 1.4720, Validation Accuracy 0.541800 
+Epoch  1, Train Loss 1.1892, Validation Accuracy 0.569800 
+Epoch  1, Train Loss 1.1309, Validation Accuracy 0.555500 
+Epoch  1, Train Loss 1.1883, Validation Accuracy 0.575200 
+Epoch  1, Train Loss nan, Validation Accuracy 0.440300 
+Epoch  1, Train Loss nan, Validation Accuracy 0.304000 
+Epoch  1, Train Loss nan, Validation Accuracy 0.264900 
+Epoch  1, Train Loss nan, Validation Accuracy 0.250600 
+Epoch  1, Train Loss nan, Validation Accuracy 0.246700 
+Epoch  1, Train Loss nan, Validation Accuracy 0.242800 
+Epoch  1, Train Loss nan, Validation Accuracy 0.244000 
+Epoch  1, Train Loss nan, Validation Accuracy 0.242700 
+Epoch  1, Train Loss nan, Validation Accuracy 0.243700 
+Epoch  1, Train Loss nan, Validation Accuracy 0.246000 
+Epoch  1, Train Loss nan, Validation Accuracy 0.242700 
+Epoch  1, Train Loss nan, Validation Accuracy 0.241800 
+Epoch  1, Train Loss nan, Validation Accuracy 0.242700 
+Epoch  1, Train Loss nan, Validation Accuracy 0.240600 
+Epoch  1, Train Loss nan, Validation Accuracy 0.241600 
+Epoch  2, Train Loss 3.1567, Validation Accuracy 0.412600 
+Epoch  2, Train Loss 1.4358, Validation Accuracy 0.434800 
+Epoch  2, Train Loss 1.6775, Validation Accuracy 0.484200 
+Epoch  2, Train Loss 1.1737, Validation Accuracy 0.530200 
+Epoch  2, Train Loss 1.1829, Validation Accuracy 0.517400 
+Epoch  2, Train Loss 1.1762, Validation Accuracy 0.530400 
+Epoch  2, Train Loss 1.2170, Validation Accuracy 0.537100 
+Epoch  2, Train Loss 1.2129, Validation Accuracy 0.548900 
+Epoch  2, Train Loss 0.9911, Validation Accuracy 0.544200 
+Epoch  2, Train Loss 0.9716, Validation Accuracy 0.562900 
+Epoch  2, Train Loss 1.0827, Validation Accuracy 0.564100 
+Epoch  2, Train Loss 1.1622, Validation Accuracy 0.561300 
+Epoch  2, Train Loss 1.2108, Validation Accuracy 0.557700 
+Epoch  2, Train Loss 1.1014, Validation Accuracy 0.558300 
+Epoch  2, Train Loss 1.2581, Validation Accuracy 0.563900 
+Epoch  2, Train Loss 1.2633, Validation Accuracy 0.576300 
+Epoch  2, Train Loss 1.4469, Validation Accuracy 0.575500 
+Epoch  2, Train Loss 1.1906, Validation Accuracy 0.577000 
+Epoch  2, Train Loss 1.0851, Validation Accuracy 0.570500 
+Epoch  2, Train Loss 0.9749, Validation Accuracy 0.579600 
+Epoch  2, Train Loss 1.2914, Validation Accuracy 0.575600 
+Epoch  2, Train Loss 1.5099, Validation Accuracy 0.569000 
+Epoch  2, Train Loss 1.2658, Validation Accuracy 0.585100 
+Epoch  2, Train Loss 1.0274, Validation Accuracy 0.584400 
+Epoch  2, Train Loss 1.0661, Validation Accuracy 0.580200 
+Epoch  2, Train Loss 1.1119, Validation Accuracy 0.563500 
+Epoch  2, Train Loss 1.1316, Validation Accuracy 0.579400 
+Epoch  2, Train Loss 0.9480, Validation Accuracy 0.601000 
+Epoch  2, Train Loss 1.2275, Validation Accuracy 0.604400 
+Epoch  2, Train Loss 0.9700, Validation Accuracy 0.608400 
+Epoch  2, Train Loss 1.0645, Validation Accuracy 0.596700 
+Epoch  2, Train Loss 1.2338, Validation Accuracy 0.600000 
+Epoch  2, Train Loss 1.0646, Validation Accuracy 0.599900 
+Epoch  2, Train Loss 1.1596, Validation Accuracy 0.594700 
+Epoch  2, Train Loss 1.2057, Validation Accuracy 0.607900 
+Epoch  2, Train Loss 1.1834, Validation Accuracy 0.615700 
+Epoch  2, Train Loss 0.8924, Validation Accuracy 0.608000 
+Epoch  2, Train Loss 1.3620, Validation Accuracy 0.596500 
+Epoch  2, Train Loss 1.2357, Validation Accuracy 0.606600 
+Epoch  2, Train Loss 1.0375, Validation Accuracy 0.598200 
+Epoch  2, Train Loss 1.1000, Validation Accuracy 0.602900 
+Epoch  2, Train Loss 0.9633, Validation Accuracy 0.576700 
+Epoch  2, Train Loss 1.2245, Validation Accuracy 0.612700 
+Epoch  2, Train Loss 1.0378, Validation Accuracy 0.601900 
+Epoch  2, Train Loss 0.9340, Validation Accuracy 0.616900 
+Epoch  2, Train Loss 0.6624, Validation Accuracy 0.613000 
+Epoch  2, Train Loss 0.8906, Validation Accuracy 0.624000 
+Epoch  2, Train Loss 1.1113, Validation Accuracy 0.610000 
+Epoch  2, Train Loss 1.0772, Validation Accuracy 0.621300 
+Epoch  2, Train Loss 0.6189, Validation Accuracy 0.620100 
+Epoch  2, Train Loss 1.2206, Validation Accuracy 0.606800 
+Epoch  2, Train Loss 1.1852, Validation Accuracy 0.633400 
+Epoch  2, Train Loss 0.9482, Validation Accuracy 0.617900 
+Epoch  2, Train Loss 0.8492, Validation Accuracy 0.633100 
+Epoch  2, Train Loss 1.0673, Validation Accuracy 0.619300 
+Epoch  2, Train Loss 1.1675, Validation Accuracy 0.634700 
+Epoch  2, Train Loss 1.1043, Validation Accuracy 0.608500 
+Epoch  2, Train Loss 1.0533, Validation Accuracy 0.630000 
+Epoch  2, Train Loss 0.9706, Validation Accuracy 0.634700 
+Epoch  2, Train Loss 1.1887, Validation Accuracy 0.623300 
+Epoch  2, Train Loss 0.9902, Validation Accuracy 0.621400 
+Epoch  2, Train Loss 0.7866, Validation Accuracy 0.636800 
+Epoch  2, Train Loss 1.0224, Validation Accuracy 0.635500 
+Epoch  2, Train Loss nan, Validation Accuracy 0.606500 
+Epoch  2, Train Loss nan, Validation Accuracy 0.580300 
+Epoch  2, Train Loss nan, Validation Accuracy 0.567500 
+Epoch  2, Train Loss nan, Validation Accuracy 0.560400 
+Epoch  2, Train Loss nan, Validation Accuracy 0.562800 
+Epoch  2, Train Loss nan, Validation Accuracy 0.560000 
+Epoch  2, Train Loss nan, Validation Accuracy 0.558400 
+Epoch  2, Train Loss nan, Validation Accuracy 0.561900 
+Epoch  2, Train Loss nan, Validation Accuracy 0.559700 
+Epoch  2, Train Loss nan, Validation Accuracy 0.559700 
+Epoch  2, Train Loss nan, Validation Accuracy 0.558800 
+Epoch  2, Train Loss nan, Validation Accuracy 0.559000 
+Epoch  2, Train Loss nan, Validation Accuracy 0.562500 
+Epoch  2, Train Loss nan, Validation Accuracy 0.559800 
+Epoch  2, Train Loss nan, Validation Accuracy 0.562200 
+Epoch  3, Train Loss 0.9716, Validation Accuracy 0.577200 
+Epoch  3, Train Loss 0.9064, Validation Accuracy 0.625100 
+Epoch  3, Train Loss 1.1798, Validation Accuracy 0.634500 
+Epoch  3, Train Loss 0.8440, Validation Accuracy 0.629900 
+Epoch  3, Train Loss 0.7726, Validation Accuracy 0.623600 
+Epoch  3, Train Loss 0.8046, Validation Accuracy 0.630800 
+Epoch  3, Train Loss 1.0257, Validation Accuracy 0.630000 
+Epoch  3, Train Loss 0.9730, Validation Accuracy 0.626500 
+Epoch  3, Train Loss 0.7777, Validation Accuracy 0.622500 
+Epoch  3, Train Loss 0.8452, Validation Accuracy 0.633700 
+Epoch  3, Train Loss 0.9221, Validation Accuracy 0.628000 
+Epoch  3, Train Loss 0.8998, Validation Accuracy 0.624200 
+Epoch  3, Train Loss 0.8492, Validation Accuracy 0.631100 
+Epoch  3, Train Loss 0.9556, Validation Accuracy 0.620300 
+Epoch  3, Train Loss 1.0058, Validation Accuracy 0.633900 
+Epoch  3, Train Loss 0.8529, Validation Accuracy 0.635700 
+Epoch  3, Train Loss 1.2075, Validation Accuracy 0.624300 
+Epoch  3, Train Loss 1.0680, Validation Accuracy 0.629100 
+Epoch  3, Train Loss 0.7912, Validation Accuracy 0.632000 
+Epoch  3, Train Loss 0.6786, Validation Accuracy 0.626300 
+Epoch  3, Train Loss 1.2467, Validation Accuracy 0.602800 
+Epoch  3, Train Loss 1.1102, Validation Accuracy 0.630600 
+Epoch  3, Train Loss 1.1966, Validation Accuracy 0.614900 
+Epoch  3, Train Loss 0.8443, Validation Accuracy 0.620400 
+Epoch  3, Train Loss 0.8591, Validation Accuracy 0.643800 
+Epoch  3, Train Loss 0.8930, Validation Accuracy 0.633100 
+Epoch  3, Train Loss 0.8873, Validation Accuracy 0.623700 
+Epoch  3, Train Loss 0.8045, Validation Accuracy 0.644600 
+Epoch  3, Train Loss 0.9871, Validation Accuracy 0.643900 
+Epoch  3, Train Loss 0.7931, Validation Accuracy 0.645400 
+Epoch  3, Train Loss 0.8568, Validation Accuracy 0.643000 
+Epoch  3, Train Loss 0.9320, Validation Accuracy 0.651000 
+Epoch  3, Train Loss 0.7245, Validation Accuracy 0.653500 
+Epoch  3, Train Loss 0.9903, Validation Accuracy 0.647700 
+Epoch  3, Train Loss 1.0914, Validation Accuracy 0.637300 
+Epoch  3, Train Loss 1.0213, Validation Accuracy 0.651700 
+Epoch  3, Train Loss 0.8277, Validation Accuracy 0.641900 
+Epoch  3, Train Loss 1.0090, Validation Accuracy 0.635000 
+Epoch  3, Train Loss 1.1116, Validation Accuracy 0.649200 
+Epoch  3, Train Loss 0.8821, Validation Accuracy 0.643200 
+Epoch  3, Train Loss 1.0815, Validation Accuracy 0.643600 
+Epoch  3, Train Loss 0.6166, Validation Accuracy 0.633300 
+Epoch  3, Train Loss 1.1098, Validation Accuracy 0.648600 
+Epoch  3, Train Loss 0.9929, Validation Accuracy 0.639800 
+Epoch  3, Train Loss 0.7903, Validation Accuracy 0.639100 
+Epoch  3, Train Loss 0.4914, Validation Accuracy 0.645900 
+Epoch  3, Train Loss 0.5990, Validation Accuracy 0.658300 
+Epoch  3, Train Loss 0.9685, Validation Accuracy 0.637200 
+Epoch  3, Train Loss 0.9015, Validation Accuracy 0.653700 
+Epoch  3, Train Loss 0.4628, Validation Accuracy 0.651900 
+Epoch  3, Train Loss 0.9821, Validation Accuracy 0.640000 
+Epoch  3, Train Loss 1.0428, Validation Accuracy 0.657100 
+Epoch  3, Train Loss 0.6552, Validation Accuracy 0.652500 
+Epoch  3, Train Loss 0.6527, Validation Accuracy 0.661900 
+Epoch  3, Train Loss 0.9200, Validation Accuracy 0.648300 
+Epoch  3, Train Loss 0.8817, Validation Accuracy 0.663900 
+Epoch  3, Train Loss 0.8423, Validation Accuracy 0.645600 
+Epoch  3, Train Loss 0.9278, Validation Accuracy 0.650200 
+Epoch  3, Train Loss 0.8452, Validation Accuracy 0.645100 
+Epoch  3, Train Loss 0.9330, Validation Accuracy 0.654800 
+Epoch  3, Train Loss 0.9226, Validation Accuracy 0.656200 
+Epoch  3, Train Loss 0.5303, Validation Accuracy 0.657500 
+Epoch  3, Train Loss 0.9019, Validation Accuracy 0.660700 
+Epoch  3, Train Loss nan, Validation Accuracy 0.596000 
+Epoch  3, Train Loss nan, Validation Accuracy 0.531400 
+Epoch  3, Train Loss nan, Validation Accuracy 0.511200 
+Epoch  3, Train Loss nan, Validation Accuracy 0.507500 
+Epoch  3, Train Loss nan, Validation Accuracy 0.505500 
+Epoch  3, Train Loss nan, Validation Accuracy 0.503300 
+Epoch  3, Train Loss nan, Validation Accuracy 0.498900 
+Epoch  3, Train Loss nan, Validation Accuracy 0.506000 
+Epoch  3, Train Loss nan, Validation Accuracy 0.510700 
+Epoch  3, Train Loss nan, Validation Accuracy 0.506600 
+Epoch  3, Train Loss nan, Validation Accuracy 0.500400 
+Epoch  3, Train Loss nan, Validation Accuracy 0.501200 
+Epoch  3, Train Loss nan, Validation Accuracy 0.504000 
+Epoch  3, Train Loss nan, Validation Accuracy 0.503900 
+Epoch  3, Train Loss nan, Validation Accuracy 0.499000 
+Epoch  4, Train Loss 1.4080, Validation Accuracy 0.549100 
+Epoch  4, Train Loss 0.7807, Validation Accuracy 0.651800 
+Epoch  4, Train Loss 0.9769, Validation Accuracy 0.661600 
+Epoch  4, Train Loss 0.8254, Validation Accuracy 0.662200 
+Epoch  4, Train Loss 0.8135, Validation Accuracy 0.655100 
+Epoch  4, Train Loss 0.7337, Validation Accuracy 0.655500 
+Epoch  4, Train Loss 0.7988, Validation Accuracy 0.651300 
+Epoch  4, Train Loss 0.8813, Validation Accuracy 0.647200 
+Epoch  4, Train Loss 0.6216, Validation Accuracy 0.641100 
+Epoch  4, Train Loss 0.6367, Validation Accuracy 0.621800 
+Epoch  4, Train Loss 0.6867, Validation Accuracy 0.631600 
+Epoch  4, Train Loss 0.9032, Validation Accuracy 0.643000 
+Epoch  4, Train Loss 0.8053, Validation Accuracy 0.652800 
+Epoch  4, Train Loss 0.8468, Validation Accuracy 0.644600 
+Epoch  4, Train Loss 0.9106, Validation Accuracy 0.659000 
+Epoch  4, Train Loss 0.7628, Validation Accuracy 0.653300 
+Epoch  4, Train Loss 0.9929, Validation Accuracy 0.650200 
+Epoch  4, Train Loss 0.9457, Validation Accuracy 0.633000 
+Epoch  4, Train Loss 0.6033, Validation Accuracy 0.654100 
+Epoch  4, Train Loss 0.5496, Validation Accuracy 0.656100 
+Epoch  4, Train Loss 0.8168, Validation Accuracy 0.649600 
+Epoch  4, Train Loss 0.7984, Validation Accuracy 0.641500 
+Epoch  4, Train Loss 0.9858, Validation Accuracy 0.643500 
+Epoch  4, Train Loss 0.6864, Validation Accuracy 0.645700 
+Epoch  4, Train Loss 0.7890, Validation Accuracy 0.655400 
+Epoch  4, Train Loss 0.7016, Validation Accuracy 0.659300 
+Epoch  4, Train Loss 0.6843, Validation Accuracy 0.656500 
+Epoch  4, Train Loss 0.7071, Validation Accuracy 0.660200 
+Epoch  4, Train Loss 0.8127, Validation Accuracy 0.662700 
+Epoch  4, Train Loss 0.5752, Validation Accuracy 0.671000 
+Epoch  4, Train Loss 0.7960, Validation Accuracy 0.657900 
+Epoch  4, Train Loss 0.9087, Validation Accuracy 0.655000 
+Epoch  4, Train Loss 0.7460, Validation Accuracy 0.666900 
+Epoch  4, Train Loss 0.7302, Validation Accuracy 0.659200 
+Epoch  4, Train Loss 0.8835, Validation Accuracy 0.664500 
+Epoch  4, Train Loss 0.8127, Validation Accuracy 0.657500 
+Epoch  4, Train Loss 0.7276, Validation Accuracy 0.643000 
+Epoch  4, Train Loss 0.8402, Validation Accuracy 0.649500 
+Epoch  4, Train Loss 0.9256, Validation Accuracy 0.656900 
+Epoch  4, Train Loss 0.8127, Validation Accuracy 0.669200 
+Epoch  4, Train Loss 0.8347, Validation Accuracy 0.658800 
+Epoch  4, Train Loss 0.5708, Validation Accuracy 0.640900 
+Epoch  4, Train Loss 0.7916, Validation Accuracy 0.669400 
+Epoch  4, Train Loss 0.8073, Validation Accuracy 0.651000 
+Epoch  4, Train Loss 0.7846, Validation Accuracy 0.653400 
+Epoch  4, Train Loss 0.3935, Validation Accuracy 0.660900 
+Epoch  4, Train Loss 0.6347, Validation Accuracy 0.659500 
+Epoch  4, Train Loss 0.8665, Validation Accuracy 0.661800 
+Epoch  4, Train Loss 0.7025, Validation Accuracy 0.666600 
+Epoch  4, Train Loss 0.4921, Validation Accuracy 0.657400 
+Epoch  4, Train Loss 0.9326, Validation Accuracy 0.645900 
+Epoch  4, Train Loss 0.7995, Validation Accuracy 0.659800 
+Epoch  4, Train Loss 0.5929, Validation Accuracy 0.643400 
+Epoch  4, Train Loss 0.4887, Validation Accuracy 0.661100 
+Epoch  4, Train Loss 0.6645, Validation Accuracy 0.655900 
+Epoch  4, Train Loss 0.7106, Validation Accuracy 0.660200 
+Epoch  4, Train Loss 0.7913, Validation Accuracy 0.667900 
+Epoch  4, Train Loss 0.7199, Validation Accuracy 0.650900 
+Epoch  4, Train Loss 0.6351, Validation Accuracy 0.660900 
+Epoch  4, Train Loss 0.6961, Validation Accuracy 0.668700 
+Epoch  4, Train Loss 0.6773, Validation Accuracy 0.664100 
+Epoch  4, Train Loss 0.3572, Validation Accuracy 0.675100 
+Epoch  4, Train Loss 0.8448, Validation Accuracy 0.664500 
+Epoch  4, Train Loss nan, Validation Accuracy 0.640800 
+Epoch  4, Train Loss nan, Validation Accuracy 0.612700 
+Epoch  4, Train Loss nan, Validation Accuracy 0.596300 
+Epoch  4, Train Loss nan, Validation Accuracy 0.584600 
+Epoch  4, Train Loss nan, Validation Accuracy 0.591700 
+Epoch  4, Train Loss nan, Validation Accuracy 0.587300 
+Epoch  4, Train Loss nan, Validation Accuracy 0.593100 
+Epoch  4, Train Loss nan, Validation Accuracy 0.590800 
+Epoch  4, Train Loss nan, Validation Accuracy 0.588500 
+Epoch  4, Train Loss nan, Validation Accuracy 0.588800 
+Epoch  4, Train Loss nan, Validation Accuracy 0.592600 
+Epoch  4, Train Loss nan, Validation Accuracy 0.589800 
+Epoch  4, Train Loss nan, Validation Accuracy 0.589500 
+Epoch  4, Train Loss nan, Validation Accuracy 0.592900 
+Epoch  4, Train Loss nan, Validation Accuracy 0.591900 
+Epoch  5, Train Loss 0.9159, Validation Accuracy 0.609500 
+Epoch  5, Train Loss 0.7701, Validation Accuracy 0.620700 
+Epoch  5, Train Loss 0.9417, Validation Accuracy 0.664400 
+Epoch  5, Train Loss 0.6057, Validation Accuracy 0.676300 
+Epoch  5, Train Loss 0.6545, Validation Accuracy 0.660800 
+Epoch  5, Train Loss 0.5588, Validation Accuracy 0.677600 
+Epoch  5, Train Loss 0.6324, Validation Accuracy 0.653700 
+Epoch  5, Train Loss 0.8879, Validation Accuracy 0.663100 
+Epoch  5, Train Loss 0.5165, Validation Accuracy 0.646300 
+Epoch  5, Train Loss 0.7029, Validation Accuracy 0.669400 
+Epoch  5, Train Loss 0.6457, Validation Accuracy 0.652600 
+Epoch  5, Train Loss 0.6898, Validation Accuracy 0.662600 
+Epoch  5, Train Loss 0.6049, Validation Accuracy 0.651600 
+Epoch  5, Train Loss 0.5577, Validation Accuracy 0.668300 
+Epoch  5, Train Loss 0.8047, Validation Accuracy 0.661400 
+Epoch  5, Train Loss 0.5978, Validation Accuracy 0.667500 
+Epoch  5, Train Loss 0.6439, Validation Accuracy 0.647900 
+Epoch  5, Train Loss 0.7729, Validation Accuracy 0.632200 
+Epoch  5, Train Loss 0.4838, Validation Accuracy 0.660800 
+Epoch  5, Train Loss 0.4102, Validation Accuracy 0.652800 
+Epoch  5, Train Loss 0.6499, Validation Accuracy 0.657900 
+Epoch  5, Train Loss 0.6845, Validation Accuracy 0.670900 
+Epoch  5, Train Loss 0.8515, Validation Accuracy 0.669600 
+Epoch  5, Train Loss 0.6847, Validation Accuracy 0.631100 
+Epoch  5, Train Loss 0.5491, Validation Accuracy 0.649200 
+Epoch  5, Train Loss 0.7400, Validation Accuracy 0.654800 
+Epoch  5, Train Loss 0.5427, Validation Accuracy 0.661200 
+Epoch  5, Train Loss 0.6465, Validation Accuracy 0.666900 
+Epoch  5, Train Loss 0.7821, Validation Accuracy 0.654000 
+Epoch  5, Train Loss 0.4885, Validation Accuracy 0.662800 
+Epoch  5, Train Loss 0.5741, Validation Accuracy 0.670800 
+Epoch  5, Train Loss 0.7687, Validation Accuracy 0.663300 
+Epoch  5, Train Loss 0.3957, Validation Accuracy 0.678900 
+Epoch  5, Train Loss 0.5511, Validation Accuracy 0.642100 
+Epoch  5, Train Loss 0.7428, Validation Accuracy 0.665500 
+Epoch  5, Train Loss 0.7404, Validation Accuracy 0.660000 
+Epoch  5, Train Loss 0.4702, Validation Accuracy 0.666900 
+Epoch  5, Train Loss 0.7499, Validation Accuracy 0.648700 
+Epoch  5, Train Loss 0.6816, Validation Accuracy 0.651100 
+Epoch  5, Train Loss 0.6796, Validation Accuracy 0.661800 
+Epoch  5, Train Loss 0.4943, Validation Accuracy 0.663400 
+Epoch  5, Train Loss 0.4277, Validation Accuracy 0.656900 
+Epoch  5, Train Loss 0.6348, Validation Accuracy 0.659800 
+Epoch  5, Train Loss 0.6565, Validation Accuracy 0.663100 
+Epoch  5, Train Loss 0.5541, Validation Accuracy 0.661700 
+Epoch  5, Train Loss 0.3176, Validation Accuracy 0.649100 
+Epoch  5, Train Loss 0.7111, Validation Accuracy 0.674200 
+Epoch  5, Train Loss 0.4918, Validation Accuracy 0.653700 
+Epoch  5, Train Loss 0.5733, Validation Accuracy 0.657600 
+Epoch  5, Train Loss 0.3134, Validation Accuracy 0.667600 
+Epoch  5, Train Loss 0.7275, Validation Accuracy 0.661500 
+Epoch  5, Train Loss 0.6479, Validation Accuracy 0.659600 
+Epoch  5, Train Loss 0.3624, Validation Accuracy 0.633700 
+Epoch  5, Train Loss 0.3773, Validation Accuracy 0.667500 
+Epoch  5, Train Loss 0.6420, Validation Accuracy 0.659400 
+Epoch  5, Train Loss 0.5230, Validation Accuracy 0.661500 
+Epoch  5, Train Loss 0.8192, Validation Accuracy 0.659300 
+Epoch  5, Train Loss 0.6187, Validation Accuracy 0.638500 
+Epoch  5, Train Loss 0.5615, Validation Accuracy 0.664500 
+Epoch  5, Train Loss 0.6252, Validation Accuracy 0.673700 
+Epoch  5, Train Loss 0.5871, Validation Accuracy 0.669900 
+Epoch  5, Train Loss 0.2639, Validation Accuracy 0.673600 
+Epoch  5, Train Loss 0.6727, Validation Accuracy 0.668100 
+Epoch  5, Train Loss nan, Validation Accuracy 0.655300 
+Epoch  5, Train Loss nan, Validation Accuracy 0.640000 
+Epoch  5, Train Loss nan, Validation Accuracy 0.633500 
+Epoch  5, Train Loss nan, Validation Accuracy 0.627800 
+Epoch  5, Train Loss nan, Validation Accuracy 0.628800 
+Epoch  5, Train Loss nan, Validation Accuracy 0.630500 
+Epoch  5, Train Loss nan, Validation Accuracy 0.626700 
+Epoch  5, Train Loss nan, Validation Accuracy 0.632200 
+Epoch  5, Train Loss nan, Validation Accuracy 0.624500 
+Epoch  5, Train Loss nan, Validation Accuracy 0.630900 
+Epoch  5, Train Loss nan, Validation Accuracy 0.629400 
+Epoch  5, Train Loss nan, Validation Accuracy 0.628300 
+Epoch  5, Train Loss nan, Validation Accuracy 0.631000 
+Epoch  5, Train Loss nan, Validation Accuracy 0.622100 
+Epoch  5, Train Loss nan, Validation Accuracy 0.633800 
+WARNING:tensorflow:From E:/study/ML/final/final/cifar.py:180: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+2021-01-09 20:04:37.478755: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-01-09 20:04:37.478988: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      
+WARNING:tensorflow:From E:/study/ML/final/final/cifar.py:191: The name tf.train.import_meta_graph is deprecated. Please use tf.compat.v1.train.import_meta_graph instead.
+
+Begin test...
+Test Accuracy: 0.6261616150538126
+
+
+Process finished with exit code 0

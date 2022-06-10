@@ -1,0 +1,147 @@
+E:\ME\study\python36\python.exe E:/study/ML/final/final/svm.py
+learning_rate=1.000000e-04,regularization_strength=1.000000e+00,val_accury=0.255000
+learning_rate=1.000000e-04,regularization_strength=3.000000e+00,val_accury=0.316000
+learning_rate=1.000000e-04,regularization_strength=1.000000e+01,val_accury=0.307000
+learning_rate=1.000000e-04,regularization_strength=3.000000e+01,val_accury=0.302000
+learning_rate=1.000000e-04,regularization_strength=1.000000e+02,val_accury=0.219000
+learning_rate=1.000000e-04,regularization_strength=3.000000e+02,val_accury=0.235000
+learning_rate=1.000000e-04,regularization_strength=1.000000e+03,val_accury=0.149000
+learning_rate=1.000000e-04,regularization_strength=3.000000e+03,val_accury=0.164000
+learning_rate=1.000000e-04,regularization_strength=1.000000e+04,val_accury=0.174000
+E:/study/ML/final/final/svm.py:89: RuntimeWarning: overflow encountered in double_scalars
+  loss += 0.5 * reg * np.sum(self.W * self.W)
+E:\ME\study\python36\lib\site-packages\numpy\core\fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+E:/study/ML/final/final/svm.py:89: RuntimeWarning: overflow encountered in multiply
+  loss += 0.5 * reg * np.sum(self.W * self.W)
+E:\ME\study\python36\lib\site-packages\numpy\core\_methods.py:36: RuntimeWarning: overflow encountered in reduce
+  return umr_sum(a, axis, dtype, out, keepdims, initial)
+E:/study/ML/final/final/svm.py:83: RuntimeWarning: overflow encountered in subtract
+  margin = scores - scores[np.arange(num_train), y].reshape(num_train, 1) + 1
+E:/study/ML/final/final/svm.py:83: RuntimeWarning: invalid value encountered in subtract
+  margin = scores - scores[np.arange(num_train), y].reshape(num_train, 1) + 1
+E:/study/ML/final/final/svm.py:86: RuntimeWarning: invalid value encountered in multiply
+  margin = (margin > 0) * margin
+E:/study/ML/final/final/svm.py:92: RuntimeWarning: invalid value encountered in greater
+  margin = (margin > 0) * 1
+E:/study/ML/final/final/svm.py:95: RuntimeWarning: overflow encountered in multiply
+  dW = x.T.dot(margin) / num_train + reg * self.W
+E:/study/ML/final/final/svm.py:86: RuntimeWarning: invalid value encountered in greater
+  margin = (margin > 0) * margin
+E:/study/ML/final/final/svm.py:135: RuntimeWarning: invalid value encountered in add
+  self.W += -learning_rate * grad
+learning_rate=1.000000e-04,regularization_strength=3.000000e+04,val_accury=0.102000
+learning_rate=1.000000e-04,regularization_strength=1.000000e+05,val_accury=0.102000
+learning_rate=1.000000e-04,regularization_strength=3.000000e+05,val_accury=0.102000
+learning_rate=3.000000e-04,regularization_strength=1.000000e+00,val_accury=0.280000
+learning_rate=3.000000e-04,regularization_strength=3.000000e+00,val_accury=0.265000
+learning_rate=3.000000e-04,regularization_strength=1.000000e+01,val_accury=0.203000
+learning_rate=3.000000e-04,regularization_strength=3.000000e+01,val_accury=0.255000
+learning_rate=3.000000e-04,regularization_strength=1.000000e+02,val_accury=0.280000
+learning_rate=3.000000e-04,regularization_strength=3.000000e+02,val_accury=0.202000
+learning_rate=3.000000e-04,regularization_strength=1.000000e+03,val_accury=0.218000
+learning_rate=3.000000e-04,regularization_strength=3.000000e+03,val_accury=0.189000
+learning_rate=3.000000e-04,regularization_strength=1.000000e+04,val_accury=0.102000
+learning_rate=3.000000e-04,regularization_strength=3.000000e+04,val_accury=0.102000
+learning_rate=3.000000e-04,regularization_strength=1.000000e+05,val_accury=0.102000
+learning_rate=3.000000e-04,regularization_strength=3.000000e+05,val_accury=0.102000
+learning_rate=1.000000e-05,regularization_strength=1.000000e+00,val_accury=0.314000
+learning_rate=1.000000e-05,regularization_strength=3.000000e+00,val_accury=0.283000
+learning_rate=1.000000e-05,regularization_strength=1.000000e+01,val_accury=0.285000
+learning_rate=1.000000e-05,regularization_strength=3.000000e+01,val_accury=0.287000
+learning_rate=1.000000e-05,regularization_strength=1.000000e+02,val_accury=0.293000
+learning_rate=1.000000e-05,regularization_strength=3.000000e+02,val_accury=0.272000
+learning_rate=1.000000e-05,regularization_strength=1.000000e+03,val_accury=0.256000
+learning_rate=1.000000e-05,regularization_strength=3.000000e+03,val_accury=0.211000
+learning_rate=1.000000e-05,regularization_strength=1.000000e+04,val_accury=0.191000
+learning_rate=1.000000e-05,regularization_strength=3.000000e+04,val_accury=0.204000
+learning_rate=1.000000e-05,regularization_strength=1.000000e+05,val_accury=0.161000
+learning_rate=1.000000e-05,regularization_strength=3.000000e+05,val_accury=0.102000
+learning_rate=3.000000e-05,regularization_strength=1.000000e+00,val_accury=0.304000
+learning_rate=3.000000e-05,regularization_strength=3.000000e+00,val_accury=0.286000
+learning_rate=3.000000e-05,regularization_strength=1.000000e+01,val_accury=0.288000
+learning_rate=3.000000e-05,regularization_strength=3.000000e+01,val_accury=0.260000
+learning_rate=3.000000e-05,regularization_strength=1.000000e+02,val_accury=0.312000
+learning_rate=3.000000e-05,regularization_strength=3.000000e+02,val_accury=0.238000
+learning_rate=3.000000e-05,regularization_strength=1.000000e+03,val_accury=0.213000
+learning_rate=3.000000e-05,regularization_strength=3.000000e+03,val_accury=0.146000
+learning_rate=3.000000e-05,regularization_strength=1.000000e+04,val_accury=0.230000
+learning_rate=3.000000e-05,regularization_strength=3.000000e+04,val_accury=0.141000
+learning_rate=3.000000e-05,regularization_strength=1.000000e+05,val_accury=0.102000
+learning_rate=3.000000e-05,regularization_strength=3.000000e+05,val_accury=0.102000
+learning_rate=1.000000e-06,regularization_strength=1.000000e+00,val_accury=0.278000
+learning_rate=1.000000e-06,regularization_strength=3.000000e+00,val_accury=0.276000
+learning_rate=1.000000e-06,regularization_strength=1.000000e+01,val_accury=0.297000
+learning_rate=1.000000e-06,regularization_strength=3.000000e+01,val_accury=0.274000
+learning_rate=1.000000e-06,regularization_strength=1.000000e+02,val_accury=0.297000
+learning_rate=1.000000e-06,regularization_strength=3.000000e+02,val_accury=0.269000
+learning_rate=1.000000e-06,regularization_strength=1.000000e+03,val_accury=0.320000
+learning_rate=1.000000e-06,regularization_strength=3.000000e+03,val_accury=0.308000
+learning_rate=1.000000e-06,regularization_strength=1.000000e+04,val_accury=0.333000
+learning_rate=1.000000e-06,regularization_strength=3.000000e+04,val_accury=0.294000
+learning_rate=1.000000e-06,regularization_strength=1.000000e+05,val_accury=0.258000
+learning_rate=1.000000e-06,regularization_strength=3.000000e+05,val_accury=0.210000
+learning_rate=3.000000e-06,regularization_strength=1.000000e+00,val_accury=0.288000
+learning_rate=3.000000e-06,regularization_strength=3.000000e+00,val_accury=0.295000
+learning_rate=3.000000e-06,regularization_strength=1.000000e+01,val_accury=0.291000
+learning_rate=3.000000e-06,regularization_strength=3.000000e+01,val_accury=0.298000
+learning_rate=3.000000e-06,regularization_strength=1.000000e+02,val_accury=0.287000
+learning_rate=3.000000e-06,regularization_strength=3.000000e+02,val_accury=0.270000
+learning_rate=3.000000e-06,regularization_strength=1.000000e+03,val_accury=0.271000
+learning_rate=3.000000e-06,regularization_strength=3.000000e+03,val_accury=0.321000
+learning_rate=3.000000e-06,regularization_strength=1.000000e+04,val_accury=0.229000
+learning_rate=3.000000e-06,regularization_strength=3.000000e+04,val_accury=0.168000
+learning_rate=3.000000e-06,regularization_strength=1.000000e+05,val_accury=0.166000
+learning_rate=3.000000e-06,regularization_strength=3.000000e+05,val_accury=0.197000
+learning_rate=1.000000e-07,regularization_strength=1.000000e+00,val_accury=0.227000
+learning_rate=1.000000e-07,regularization_strength=3.000000e+00,val_accury=0.226000
+learning_rate=1.000000e-07,regularization_strength=1.000000e+01,val_accury=0.233000
+learning_rate=1.000000e-07,regularization_strength=3.000000e+01,val_accury=0.244000
+learning_rate=1.000000e-07,regularization_strength=1.000000e+02,val_accury=0.217000
+learning_rate=1.000000e-07,regularization_strength=3.000000e+02,val_accury=0.251000
+learning_rate=1.000000e-07,regularization_strength=1.000000e+03,val_accury=0.227000
+learning_rate=1.000000e-07,regularization_strength=3.000000e+03,val_accury=0.243000
+learning_rate=1.000000e-07,regularization_strength=1.000000e+04,val_accury=0.276000
+learning_rate=1.000000e-07,regularization_strength=3.000000e+04,val_accury=0.377000
+learning_rate=1.000000e-07,regularization_strength=1.000000e+05,val_accury=0.344000
+learning_rate=1.000000e-07,regularization_strength=3.000000e+05,val_accury=0.332000
+learning_rate=3.000000e-07,regularization_strength=1.000000e+00,val_accury=0.254000
+learning_rate=3.000000e-07,regularization_strength=3.000000e+00,val_accury=0.272000
+learning_rate=3.000000e-07,regularization_strength=1.000000e+01,val_accury=0.259000
+learning_rate=3.000000e-07,regularization_strength=3.000000e+01,val_accury=0.263000
+learning_rate=3.000000e-07,regularization_strength=1.000000e+02,val_accury=0.243000
+learning_rate=3.000000e-07,regularization_strength=3.000000e+02,val_accury=0.257000
+learning_rate=3.000000e-07,regularization_strength=1.000000e+03,val_accury=0.272000
+learning_rate=3.000000e-07,regularization_strength=3.000000e+03,val_accury=0.332000
+learning_rate=3.000000e-07,regularization_strength=1.000000e+04,val_accury=0.343000
+learning_rate=3.000000e-07,regularization_strength=3.000000e+04,val_accury=0.348000
+learning_rate=3.000000e-07,regularization_strength=1.000000e+05,val_accury=0.317000
+learning_rate=3.000000e-07,regularization_strength=3.000000e+05,val_accury=0.274000
+learning_rate=1.000000e-08,regularization_strength=1.000000e+00,val_accury=0.147000
+learning_rate=1.000000e-08,regularization_strength=3.000000e+00,val_accury=0.141000
+learning_rate=1.000000e-08,regularization_strength=1.000000e+01,val_accury=0.148000
+learning_rate=1.000000e-08,regularization_strength=3.000000e+01,val_accury=0.157000
+learning_rate=1.000000e-08,regularization_strength=1.000000e+02,val_accury=0.161000
+learning_rate=1.000000e-08,regularization_strength=3.000000e+02,val_accury=0.188000
+learning_rate=1.000000e-08,regularization_strength=1.000000e+03,val_accury=0.170000
+learning_rate=1.000000e-08,regularization_strength=3.000000e+03,val_accury=0.171000
+learning_rate=1.000000e-08,regularization_strength=1.000000e+04,val_accury=0.175000
+learning_rate=1.000000e-08,regularization_strength=3.000000e+04,val_accury=0.168000
+learning_rate=1.000000e-08,regularization_strength=1.000000e+05,val_accury=0.217000
+learning_rate=1.000000e-08,regularization_strength=3.000000e+05,val_accury=0.331000
+learning_rate=3.000000e-08,regularization_strength=1.000000e+00,val_accury=0.208000
+learning_rate=3.000000e-08,regularization_strength=3.000000e+00,val_accury=0.199000
+learning_rate=3.000000e-08,regularization_strength=1.000000e+01,val_accury=0.193000
+learning_rate=3.000000e-08,regularization_strength=3.000000e+01,val_accury=0.198000
+learning_rate=3.000000e-08,regularization_strength=1.000000e+02,val_accury=0.192000
+learning_rate=3.000000e-08,regularization_strength=3.000000e+02,val_accury=0.181000
+learning_rate=3.000000e-08,regularization_strength=1.000000e+03,val_accury=0.182000
+learning_rate=3.000000e-08,regularization_strength=3.000000e+03,val_accury=0.188000
+learning_rate=3.000000e-08,regularization_strength=1.000000e+04,val_accury=0.224000
+learning_rate=3.000000e-08,regularization_strength=3.000000e+04,val_accury=0.249000
+learning_rate=3.000000e-08,regularization_strength=1.000000e+05,val_accury=0.356000
+learning_rate=3.000000e-08,regularization_strength=3.000000e+05,val_accury=0.323000
+max_accuracy=0.377000,best_learning_rate=1.000000e-07,best_regularization_strength=3.000000e+04
+The test accuracy with self-realized svm is:0.364000
+
+Program time of self-realized svm is:1109.6477954000002s
